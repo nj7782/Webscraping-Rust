@@ -4,6 +4,8 @@
 
 In this post I'm going to write a Rust script that scrapes (web-scraping) information about the 10 most COVID affected countries with the details (total cases, total deaths, and total recovered) from worldometers.info to a CSV file?
 
+## Scraping Ecosystem
+
 I will be using the following libraries 
 
 - [reqwest]

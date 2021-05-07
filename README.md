@@ -45,7 +45,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
  ```
     
-    Now, I want it to write in a csv file as you can see in the above code I have used a undefined use csv::Writer; it is basically to write our code to csv file
+   I want top 10 covid countries data to wrap up in a csv file. So, I will create a path and select the data which I require.
     
     
  ```rust

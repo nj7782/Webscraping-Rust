@@ -48,7 +48,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Now, I want it to write in a csv file as you can see in the above code I have used a undefined use csv::Writer; it is basically to write our code to csv file
     
     
-    ```rust
+ ```rust
     let mut wtr = Writer::from_path("data.csv")?;
 
     wtr.write_record(&["#", "Country", "Total Cases", "Total Deaths", "Total Recovered"])?;

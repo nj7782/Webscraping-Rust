@@ -12,7 +12,7 @@ I will be using the following libraries
 
     > HTML parsing and querying with CSS selectors
     
-- Now I will use [tokio::main]
+- [tokio::main]
  
    > A runtime for writing reliable network applications without compromising speed.
    

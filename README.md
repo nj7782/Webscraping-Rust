@@ -11,10 +11,18 @@ I will be using the following libraries
 - [scraper]
 
     > HTML parsing and querying with CSS selectors
+
+- [select.rs]
+
+    > A Rust library to extract useful data from HTML documents, suitable for web scraping
     
 - [tokio::main]
  
    > A runtime for writing reliable network applications without compromising speed.
+
+- [csv::Writer]
+  
+  > A CSV writer takes as input Rust values and writes those values in a valid CSV format as output.
    
 The first script will perform a fairly basic task: grabbing all links from the page. For this, we'll utilize `reqwest` and `select.rs`. As you can see the syntax is fairly concise and straightforward.
 

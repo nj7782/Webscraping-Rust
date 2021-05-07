@@ -87,7 +87,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 The end result of running this script is as follows:
 
-![data](https://github.com/nj7782/Webscraping-Rust/blob/main/data.csv)
+[data](https://github.com/nj7782/Webscraping-Rust/blob/main/data.csv)
 
 
 

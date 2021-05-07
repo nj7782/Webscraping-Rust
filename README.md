@@ -43,7 +43,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let mut count = 1;
     
-    ```
+ ```
     
     Now, I want it to write in a csv file as you can see in the above code I have used a undefined use csv::Writer; it is basically to write our code to csv file
     

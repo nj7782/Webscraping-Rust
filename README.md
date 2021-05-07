@@ -24,7 +24,7 @@ I will be using the following libraries
   
   > A CSV writer takes as input Rust values and writes those values in a valid CSV format as output.
    
-The first script will perform a fairly basic task: grabbing all links from the page. For this, we'll utilize `reqwest` and `select.rs`. As you can see the syntax is fairly concise and straightforward.
+The first script will perform a fairly basic task: grabbing all the covid data from the page. For this, we'll utilize `reqwest` and `scraper`. As you can see the syntax is fairly concise and straightforward.
 
 ```rust
 
